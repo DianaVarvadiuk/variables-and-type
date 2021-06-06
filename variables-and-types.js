@@ -26,10 +26,6 @@ const averagevalue = ((sumgoods/quantitygoods).toFixed(2));
 console.log(`Середнє значення цін, округлене до другого знаку після коми :${averagevalue}`);
 
 
-
-
-
-
 const discount =Math.round(Math.random()*100);
 console.log(`Рандомна знижка :${discount}`);
 const priceDiscount = (sumfloorGoods-(sumfloorGoods*(discount/100))).toFixed(2);
