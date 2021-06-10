@@ -3,20 +3,19 @@ const kettle = 123.965;
 const cup = 90.2345;
 
 const sumgoods = plate + kettle + cup;
-let floorplate = null;
-let floorkettle = null;
-let floorcup = null;
 const paymoney = 500;
 const quantitygoods = 3 ;
 const maxPrice = Math.max(plate,kettle,cup);
 console.log(`maxPrice: ${maxPrice}`);
 const minPrice = Math.min(plate,kettle,cup);
-
 console.log(`minPrice : ${minPrice}`);
 console.log(`sumgoods : ${sumgoods}`);
-console.log(floorplate = Math.floor(plate));
-console.log(floorkettle = Math.floor(kettle));
-console.log(floorcup = Math.floor(cup));
+const floorplate = Math.floor(plate);
+console.log(floorplate);
+const floorkettle = Math.floor(kettle);
+console.log(floorkettle);
+const floorcup = Math.floor(cup);
+console.log(floorcup);
 const sumfloorGoods = floorplate + floorkettle + floorcup;
 console.log(`sumfloorGoods : ${sumfloorGoods}`);
 console.log(`sumfloorGoods rounded to hundreds : ${Math.round(sumfloorGoods / 100) *100}`);
